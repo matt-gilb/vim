@@ -4,3 +4,6 @@
 [submodule "colors/start/nord"]
 	path = colors/start/nord
 	url = https://github.com/nordtheme/vim
+[submodule "pack/plugins/start/airline"]
+	path = pack/plugins/start/airline
+	url = https://github.com/vim-airline/vim-airline.git
