@@ -175,7 +175,7 @@ set  tabstop=4 softtabstop=4 shiftwidth=4 expandtab
 
 """
 " colorscheme
-
+colorscheme nord
 
 """
 " Add optional packages.
