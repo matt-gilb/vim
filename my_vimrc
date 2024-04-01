@@ -56,7 +56,7 @@ set  wrap
 " Insert, Replace, and Visual mode - you can set the highlight for this
 " mode message using the 'M' flag in 'highlight' or like this, for the GUI
 " hi ModeMsg gui=bold guifg=#000000 guibg=#f3f2ae
-set  showmode
+set  noshowmode
 
 """
 " show the line number, column number of the cursor on the last line in the
@@ -67,7 +67,7 @@ set  ruler
 
 """
 " always show the status line
-set  laststatus=2
+set  laststatus=0
 
 """
 " show the incomplete command on the last line in the right corner of the
@@ -190,3 +190,14 @@ endif
 
 " fuzzyfinder support
 set rtp+=/usr/local/opt/fzf
+
+""" airline options
+let g:airline_powerline_fonts = 1
+
+" tablinee at top
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#left_sep = ' '
+let g:airline#extensions#tabline#left_alt_sep = '|'
+
+" status line at bottom
+
