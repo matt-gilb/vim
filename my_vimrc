@@ -6,6 +6,9 @@ set nobackup    " do not keep a backup file, use versions instead
 " disable Vi compatibility
 set  nocompatible
 
+" add clipboard support
+set clipboard=unnamedplus,unnamed,autoselect
+
 """
 " turns on filetype detection, which invokes the plugins for specific
 " filetypes - this enables the installed plugins - Note that the filetype
