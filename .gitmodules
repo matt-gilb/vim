@@ -28,3 +28,6 @@
 [submodule "pack/colors/start/nord"]
 	path = pack/colors/start/nord
 	url = https://github.com/nordtheme/vim.git
+[submodule "pack/plugins/start/sensible"]
+	path = pack/plugins/start/sensible
+	url = https://github.com/tpope/vim-sensible.git
