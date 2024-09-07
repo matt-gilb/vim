@@ -1,9 +1,6 @@
 [submodule "plugins/start/nerdtree"]
 	path = plugins/start/nerdtree
 	url = https://github.com/scrooloose/nerdtreen
-[submodule "colors/start/nord"]
-	path = colors/start/nord
-	url = https://github.com/nordtheme/vim
 [submodule "pack/plugins/start/airline"]
 	path = pack/plugins/start/airline
 	url = https://github.com/vim-airline/vim-airline.git
@@ -25,9 +22,6 @@
 [submodule "pack/plugins/start/nerdtree"]
 	path = pack/plugins/start/nerdtree
 	url = https://github.com/preservim/nerdtree.git
-[submodule "pack/colors/start/nord"]
-	path = pack/colors/start/nord
-	url = https://github.com/nordtheme/vim.git
 [submodule "pack/plugins/start/sensible"]
 	path = pack/plugins/start/sensible
 	url = https://github.com/tpope/vim-sensible.git
